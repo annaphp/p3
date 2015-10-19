@@ -3,8 +3,10 @@
 User Generator
 @endsection
 @section('content')
-  <a href="/">Home Page</a>
-  <a href="lorem_ipsum">Lorem Ipsum Generator</a>
+
+<a href="/">Home Page</a>
+<a href="lorem_ipsum">Lorem Ipsum Generator</a>
+
 <h1> User Generator  </h1>
 @if(count($errors) > 0)
     <ul>
@@ -17,9 +19,8 @@ User Generator
 
 <form method='POST' action='user_generator'>
     <input type='hidden' name='_token' value='{{ csrf_token() }}'>
-    <label for='paragraphs'>Users: </label>
-    <input type='text' name='number_of_users' maxlength='2' >
-
+    <label for='paragraphs'>Users (Max 99): </label>
+    <input type='text' name='number_of_users' maxlength='2' ><br>
 
     <label for='dob'> Date of Birth:</label>
     <input  type='checkbox' name='dob'>
@@ -49,7 +50,6 @@ if($dob == 'on' && $profile=='on'){
 } else {
   echo "<h4>".$faker->name."</h4>";
 }
-
 ?>
 @endif
 

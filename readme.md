@@ -1,27 +1,20 @@
-## Laravel PHP Framework
+# Project 3 - Developer's Best Friend
+# author: Anna Ilchenko
+## Live URL
+<http://p3.annaphp.me>
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+## Description
+Developer's best friend is online tool that generates Lorem Ipsum text and random Users for developers.
+This tool generates min 1 max 99 users/lorm ipsum paragraphs. A user has a choice to include a date of birth and profile for the users.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+## Demo
+<https://youtu.be/ikopY-TtIE8>
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
 
-## Official Documentation
-
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-### License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+## Outside code
+* Lorem Ipsum Generator(Badcow/LoremIpsum) package:
+  https://github.com/Badcow/LoremIpsum.git
+* Random user generator package(fzaninotto/Faker):
+  https://github.com/fzaninotto/Faker.git
+* Bootstrap:
+  http://getbootstrap.com/

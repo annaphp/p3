@@ -3,47 +3,26 @@ header {
   border-bottom: 10px solid #70DB70;
   width: 80%;
   margin: 0 auto;
-
-
 }
+
 li{
   color: red;
 }
 
 h4{
-
   font-style: italic;
 }
+
 .main {
   width:80%;
   margin: 0 auto;
-
 }
 
 a:link {
   border-left: 5px solid;
   padding-left: 5px;
-
-}
-.content {
-  background-color: #FFFFEB
-  padding: 20px;
-  border-left:
-
 }
 
-form{
+form {
   padding:20px;
-
-}
-input {
-
-    margin: auto;
-
-    display:block;
-  }
-
-label {
-    display: block;
-    margin: auto;
 }

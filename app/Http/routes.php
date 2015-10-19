@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'HomePageController@index');
+Route::get('lorem_ipsum','LoremIpsumController@displayForm');
+Route::post('lorem_ipsum', 'LoremIpsumController@generateText');
+Route::get('user_generator', 'UserGeneratorController@displayForm');
+Route::post('user_generator', 'UserGeneratorController@generateUser');

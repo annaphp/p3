@@ -42,13 +42,20 @@ if($dob == 'on' && $profile=='on'){
         echo "<p>".$faker->text."</p>";
     }
 }elseif ($dob == 'on') {
-  echo "<h4>".$faker->name."</h4>";
-  echo "<p>".$faker->date($format = 'Y-m-d', $max = 'now')."</p>";
+
+    for($i=0; $i<$number; $i++){
+        echo "<h4>".$faker->name."</h4>";
+        echo "<p>".$faker->date($format = 'Y-m-d', $max = 'now')."</p>";
+  }
 } elseif($profile == 'on'){
-  echo "<h4>".$faker->name."</h4>";
-  echo "<p>".$faker->text."</p>";
+    for($i=0; $i<$number; $i++){
+        echo "<h4>".$faker->name."</h4>";
+        echo "<p>".$faker->text."</p>";
+    }
 } else {
-  echo "<h4>".$faker->name."</h4>";
+    for($i=0; $i<$number; $i++){
+       echo "<h4>".$faker->name."</h4>";
+    }
 }
 ?>
 @endif

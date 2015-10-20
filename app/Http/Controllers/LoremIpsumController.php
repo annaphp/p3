@@ -14,6 +14,7 @@ class LoremIpsumController extends Controller {
 }
   //this function generates Lorem Ipsum text using badcow/lorem-ipsum package functionality
   public function generateText(Request $request){
+    //validation: input must be numeric, the field is required, and min  value is 1
       $this ->validate($request,
       ['number_of_paraghraphs' => 'required|numeric|min:1',]);
 

@@ -14,7 +14,7 @@ class UserGeneratorController extends Controller {
 
 //this function generates random users using  fzaninotto/faker package functionality
   public function generateUser(Request $request){
-
+    //validation: input must be numeric, the field is required, and min  value is 1
     $this ->validate($request,
     ['number_of_users' => 'required|numeric|min:1',]);
 

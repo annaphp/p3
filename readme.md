@@ -8,7 +8,7 @@ Developer's best friend is online tool that generates Lorem Ipsum text and rando
 This tool generates min 1 max 99 users/lorm ipsum paragraphs. A user has a choice to include a date of birth and profile for the users.
 
 ## Demo
-<https://youtu.be/ikopY-TtIE8>
+<https://youtu.be/u2VxbxsDvrs>
 
 
 ## Outside code
